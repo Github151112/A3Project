@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="12" total="36" passed="24" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[==server connected successfully==]]>
@@ -14,159 +14,103 @@
       <![CDATA[==browser closed successfully==]]>
     </line>
     <line>
-      <![CDATA[==launching chrome browser==]]>
-    </line>
-    <line>
-      <![CDATA[==browser closed successfully==]]>
-    </line>
-    <line>
-      <![CDATA[==launching chrome browser==]]>
-    </line>
-    <line>
-      <![CDATA[==browser closed successfully==]]>
-    </line>
-    <line>
-      <![CDATA[==launching chrome browser==]]>
-    </line>
-    <line>
-      <![CDATA[==browser closed successfully==]]>
-    </line>
-    <line>
       <![CDATA[==database closed successfully]]>
     </line>
     <line>
       <![CDATA[==server close successfully==]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-03-29T07:42:58Z" name="Suite" finished-at="2025-03-29T07:43:45Z" duration-ms="46379">
+  <suite started-at="2025-03-29T09:29:41Z" name="Default suite" finished-at="2025-03-29T09:29:46Z" duration-ms="5402">
     <groups>
+      <group name="ST">
+        <method signature="RegisterTest.register()[pri:0, instance:com.Ecommerce.TestScripts.RegisterTest@6d5620ce]" name="register" class="com.Ecommerce.TestScripts.RegisterTest"/>
+      </group> <!-- ST -->
     </groups>
-    <test started-at="2025-03-29T07:42:58Z" name="Test" finished-at="2025-03-29T07:43:45Z" duration-ms="46379">
-      <class name="com.Ecommerce.TestScripts.InvalidLoginTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Ecommerce.TestScripts.InvalidLoginTest@17503f6b]" started-at="2025-03-29T07:43:21Z" name="setUp" finished-at="2025-03-29T07:43:25Z" duration-ms="3826" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[==launching chrome browser==]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="invalidLogin(java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.TestScripts.InvalidLoginTest@17503f6b]" started-at="2025-03-29T07:43:25Z" name="invalidLogin" data-provider="invalidData" finished-at="2025-03-29T07:43:26Z" duration-ms="1212" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[jsdbchj@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[sjdb]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invalidLogin -->
-        <test-method signature="invalidLogin(java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.TestScripts.InvalidLoginTest@17503f6b]" started-at="2025-03-29T07:43:26Z" name="invalidLogin" data-provider="invalidData" finished-at="2025-03-29T07:43:27Z" duration-ms="1063" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[jsdbcjdnshj@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[sjdbdsjvn]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invalidLogin -->
-        <test-method signature="invalidLogin(java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.TestScripts.InvalidLoginTest@17503f6b]" started-at="2025-03-29T07:43:27Z" name="invalidLogin" data-provider="invalidData" finished-at="2025-03-29T07:43:28Z" duration-ms="1061" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[jsdbcdnvhj@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[sjdbjwefb]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invalidLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Ecommerce.TestScripts.InvalidLoginTest@17503f6b]" started-at="2025-03-29T07:43:28Z" name="tearDown" finished-at="2025-03-29T07:43:29Z" duration-ms="159" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[==browser closed successfully==]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.Ecommerce.TestScripts.InvalidLoginTest -->
-      <class name="com.Ecommerce.TestScripts.LoginTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Ecommerce.TestScripts.LoginTest@2235eaab]" started-at="2025-03-29T07:43:12Z" name="setUp" finished-at="2025-03-29T07:43:17Z" duration-ms="4978" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[==launching chrome browser==]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="login()[pri:0, instance:com.Ecommerce.TestScripts.LoginTest@2235eaab]" started-at="2025-03-29T07:43:17Z" name="login" finished-at="2025-03-29T07:43:21Z" duration-ms="3816" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Ecommerce.TestScripts.LoginTest@2235eaab]" started-at="2025-03-29T07:43:21Z" name="tearDown" finished-at="2025-03-29T07:43:21Z" duration-ms="182" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[==browser closed successfully==]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.Ecommerce.TestScripts.LoginTest -->
+    <test started-at="2025-03-29T09:29:41Z" name="Default test" finished-at="2025-03-29T09:29:46Z" duration-ms="5402">
       <class name="com.Ecommerce.TestScripts.RegisterTest">
-        <test-method is-config="true" signature="toConnectServer()[pri:0, instance:com.Ecommerce.TestScripts.RegisterTest@13526e59]" started-at="2025-03-29T07:42:58Z" name="toConnectServer" finished-at="2025-03-29T07:42:58Z" duration-ms="8" status="PASS">
+        <test-method is-config="true" signature="toConnectServer()[pri:0, instance:com.Ecommerce.TestScripts.RegisterTest@6d5620ce]" started-at="2025-03-29T09:29:41Z" name="toConnectServer" finished-at="2025-03-29T09:29:41Z" duration-ms="7" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[==server connected successfully==]]>
             </line>
           </reporter-output>
         </test-method> <!-- toConnectServer -->
-        <test-method is-config="true" signature="toConnectDatabase()[pri:0, instance:com.Ecommerce.TestScripts.RegisterTest@13526e59]" started-at="2025-03-29T07:42:58Z" name="toConnectDatabase" finished-at="2025-03-29T07:42:58Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="toConnectDatabase()[pri:0, instance:com.Ecommerce.TestScripts.RegisterTest@6d5620ce]" started-at="2025-03-29T09:29:41Z" name="toConnectDatabase" finished-at="2025-03-29T09:29:41Z" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[==database connected successfully]]>
             </line>
           </reporter-output>
         </test-method> <!-- toConnectDatabase -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Ecommerce.TestScripts.RegisterTest@13526e59]" started-at="2025-03-29T07:42:58Z" name="setUp" finished-at="2025-03-29T07:43:03Z" duration-ms="4641" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.Ecommerce.TestScripts.RegisterTest@6d5620ce]" started-at="2025-03-29T09:29:41Z" name="setUp" finished-at="2025-03-29T09:29:45Z" duration-ms="3760" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
             <line>
               <![CDATA[==launching chrome browser==]]>
             </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="register()[pri:0, instance:com.Ecommerce.TestScripts.RegisterTest@13526e59]" started-at="2025-03-29T07:43:03Z" name="register" finished-at="2025-03-29T07:43:10Z" duration-ms="7442" status="PASS">
+        <test-method signature="register()[pri:0, instance:com.Ecommerce.TestScripts.RegisterTest@6d5620ce]" started-at="2025-03-29T09:29:45Z" name="register" finished-at="2025-03-29T09:29:46Z" duration-ms="1458" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [Demo Web Shop. Regis] but found [Demo Web Shop. Register]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [Demo Web Shop. Regis] but found [Demo Web Shop. Register]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+at com.Ecommerce.TestScripts.RegisterTest.register(RegisterTest.java:37)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- register -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Ecommerce.TestScripts.RegisterTest@13526e59]" started-at="2025-03-29T07:43:10Z" name="tearDown" finished-at="2025-03-29T07:43:12Z" duration-ms="1766" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Ecommerce.TestScripts.RegisterTest@6d5620ce]" started-at="2025-03-29T09:29:46Z" name="tearDown" finished-at="2025-03-29T09:29:46Z" duration-ms="168" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[==browser closed successfully==]]>
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="toCloseDatabase()[pri:0, instance:com.Ecommerce.TestScripts.RegisterTest@13526e59]" started-at="2025-03-29T07:43:45Z" name="toCloseDatabase" finished-at="2025-03-29T07:43:45Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="toCloseDatabase()[pri:0, instance:com.Ecommerce.TestScripts.RegisterTest@6d5620ce]" started-at="2025-03-29T09:29:46Z" name="toCloseDatabase" finished-at="2025-03-29T09:29:46Z" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[==database closed successfully]]>
             </line>
           </reporter-output>
         </test-method> <!-- toCloseDatabase -->
-        <test-method is-config="true" signature="toCloseServer()[pri:0, instance:com.Ecommerce.TestScripts.RegisterTest@13526e59]" started-at="2025-03-29T07:43:45Z" name="toCloseServer" finished-at="2025-03-29T07:43:45Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="toCloseServer()[pri:0, instance:com.Ecommerce.TestScripts.RegisterTest@6d5620ce]" started-at="2025-03-29T09:29:46Z" name="toCloseServer" finished-at="2025-03-29T09:29:46Z" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[==server close successfully==]]>
@@ -174,326 +118,6 @@
           </reporter-output>
         </test-method> <!-- toCloseServer -->
       </class> <!-- com.Ecommerce.TestScripts.RegisterTest -->
-      <class name="com.Ecommerce.TestScripts.InvalidLoginTest2">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Ecommerce.TestScripts.InvalidLoginTest2@3bcd05cb]" started-at="2025-03-29T07:43:29Z" name="setUp" finished-at="2025-03-29T07:43:32Z" duration-ms="3728" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[==launching chrome browser==]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="invalidLogin(java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.TestScripts.InvalidLoginTest2@3bcd05cb]" started-at="2025-03-29T07:43:32Z" name="invalidLogin" data-provider="invalidData1" finished-at="2025-03-29T07:43:33Z" duration-ms="809" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[PixelVoyager]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Pixel@123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invalidLogin -->
-        <test-method signature="invalidLogin(java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.TestScripts.InvalidLoginTest2@3bcd05cb]" started-at="2025-03-29T07:43:33Z" name="invalidLogin" data-provider="invalidData1" finished-at="2025-03-29T07:43:34Z" duration-ms="658" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[FrostNova77]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Pixel@123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invalidLogin -->
-        <test-method signature="invalidLogin(java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.TestScripts.InvalidLoginTest2@3bcd05cb]" started-at="2025-03-29T07:43:34Z" name="invalidLogin" data-provider="invalidData1" finished-at="2025-03-29T07:43:34Z" duration-ms="633" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[QuantumEcho]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Pixel@123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invalidLogin -->
-        <test-method signature="invalidLogin(java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.TestScripts.InvalidLoginTest2@3bcd05cb]" started-at="2025-03-29T07:43:34Z" name="invalidLogin" data-provider="invalidData1" finished-at="2025-03-29T07:43:35Z" duration-ms="636" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ShadowCraze]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Pixel@123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invalidLogin -->
-        <test-method signature="invalidLogin(java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.TestScripts.InvalidLoginTest2@3bcd05cb]" started-at="2025-03-29T07:43:35Z" name="invalidLogin" data-provider="invalidData1" finished-at="2025-03-29T07:43:36Z" duration-ms="631" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[BlazeDrift9]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Pixel@123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invalidLogin -->
-        <test-method signature="invalidLogin(java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.TestScripts.InvalidLoginTest2@3bcd05cb]" started-at="2025-03-29T07:43:36Z" name="invalidLogin" data-provider="invalidData1" finished-at="2025-03-29T07:43:36Z" duration-ms="624" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[NeonWraith]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Pixel@123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invalidLogin -->
-        <test-method signature="invalidLogin(java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.TestScripts.InvalidLoginTest2@3bcd05cb]" started-at="2025-03-29T07:43:36Z" name="invalidLogin" data-provider="invalidData1" finished-at="2025-03-29T07:43:37Z" duration-ms="642" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[GlitchVortex]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Pixel@123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invalidLogin -->
-        <test-method signature="invalidLogin(java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.TestScripts.InvalidLoginTest2@3bcd05cb]" started-at="2025-03-29T07:43:37Z" name="invalidLogin" data-provider="invalidData1" finished-at="2025-03-29T07:43:38Z" duration-ms="618" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[TurboPineapple]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Pixel@123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invalidLogin -->
-        <test-method signature="invalidLogin(java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.TestScripts.InvalidLoginTest2@3bcd05cb]" started-at="2025-03-29T07:43:38Z" name="invalidLogin" data-provider="invalidData1" finished-at="2025-03-29T07:43:38Z" duration-ms="633" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[NovaWhisker]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Pixel@123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invalidLogin -->
-        <test-method signature="invalidLogin(java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.TestScripts.InvalidLoginTest2@3bcd05cb]" started-at="2025-03-29T07:43:38Z" name="invalidLogin" data-provider="invalidData1" finished-at="2025-03-29T07:43:39Z" duration-ms="656" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[CrypticBouncer]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Pixel@123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invalidLogin -->
-        <test-method signature="invalidLogin(java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.TestScripts.InvalidLoginTest2@3bcd05cb]" started-at="2025-03-29T07:43:39Z" name="invalidLogin" data-provider="invalidData1" finished-at="2025-03-29T07:43:40Z" duration-ms="668" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[VoidJumper42]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Pixel@123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invalidLogin -->
-        <test-method signature="invalidLogin(java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.TestScripts.InvalidLoginTest2@3bcd05cb]" started-at="2025-03-29T07:43:40Z" name="invalidLogin" data-provider="invalidData1" finished-at="2025-03-29T07:43:40Z" duration-ms="651" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[PixelPhantom]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Pixel@123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invalidLogin -->
-        <test-method signature="invalidLogin(java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.TestScripts.InvalidLoginTest2@3bcd05cb]" started-at="2025-03-29T07:43:40Z" name="invalidLogin" data-provider="invalidData1" finished-at="2025-03-29T07:43:41Z" duration-ms="624" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[SkyFrostEcho]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Pixel@123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invalidLogin -->
-        <test-method signature="invalidLogin(java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.TestScripts.InvalidLoginTest2@3bcd05cb]" started-at="2025-03-29T07:43:41Z" name="invalidLogin" data-provider="invalidData1" finished-at="2025-03-29T07:43:41Z" duration-ms="613" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[TurboLynx]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Pixel@123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invalidLogin -->
-        <test-method signature="invalidLogin(java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.TestScripts.InvalidLoginTest2@3bcd05cb]" started-at="2025-03-29T07:43:41Z" name="invalidLogin" data-provider="invalidData1" finished-at="2025-03-29T07:43:42Z" duration-ms="653" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[CrimsonDrift]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Pixel@123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invalidLogin -->
-        <test-method signature="invalidLogin(java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.TestScripts.InvalidLoginTest2@3bcd05cb]" started-at="2025-03-29T07:43:42Z" name="invalidLogin" data-provider="invalidData1" finished-at="2025-03-29T07:43:43Z" duration-ms="634" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[NebulaSnap]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Pixel@123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invalidLogin -->
-        <test-method signature="invalidLogin(java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.TestScripts.InvalidLoginTest2@3bcd05cb]" started-at="2025-03-29T07:43:43Z" name="invalidLogin" data-provider="invalidData1" finished-at="2025-03-29T07:43:43Z" duration-ms="648" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[GlitchWolfX]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Pixel@123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invalidLogin -->
-        <test-method signature="invalidLogin(java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.TestScripts.InvalidLoginTest2@3bcd05cb]" started-at="2025-03-29T07:43:43Z" name="invalidLogin" data-provider="invalidData1" finished-at="2025-03-29T07:43:44Z" duration-ms="626" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[AstroVortex9]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Pixel@123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invalidLogin -->
-        <test-method signature="invalidLogin(java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.TestScripts.InvalidLoginTest2@3bcd05cb]" started-at="2025-03-29T07:43:44Z" name="invalidLogin" data-provider="invalidData1" finished-at="2025-03-29T07:43:45Z" duration-ms="647" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ShadowSpire]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Pixel@123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invalidLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Ecommerce.TestScripts.InvalidLoginTest2@3bcd05cb]" started-at="2025-03-29T07:43:45Z" name="tearDown" finished-at="2025-03-29T07:43:45Z" duration-ms="128" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[==browser closed successfully==]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.Ecommerce.TestScripts.InvalidLoginTest2 -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

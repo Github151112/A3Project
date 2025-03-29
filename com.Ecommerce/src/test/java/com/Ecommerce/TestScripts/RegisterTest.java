@@ -5,6 +5,7 @@ import java.io.IOException;
 import org.apache.poi.EncryptedDocumentException;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 
 import com.Ecommerce.GenericUtility.BaseTest;
 import com.Ecommerce.objectRepository.RegisterPage;
@@ -12,7 +13,7 @@ import com.Ecommerce.objectRepository.WelcomePage;
 
 public class RegisterTest extends BaseTest {
 
-	@Test
+	@Test(groups = "ST")
 	public void register() throws InterruptedException, EncryptedDocumentException, IOException {
 
 		String firstName = e.readDataFromExcel(EXCELPATH, REGISTERSHEET, 1, 0);
@@ -23,11 +24,17 @@ public class RegisterTest extends BaseTest {
 		WelcomePage wp = new WelcomePage(driver);
 		wp.getRegisterLink().click();
 
+		/*
+		 * use soft assert
+		 */
+		SoftAssert s = new SoftAssert();
+		s.assertEquals(driver.getTitle(), "Demo Web Shop. Regis");
+
 		// Step 2: registration
 		RegisterPage rp = new RegisterPage(driver);
 		rp.toRegister(firstName, lastName, d.generateRandomEmail(), password);
 
-		Thread.sleep(5000);
+		s.assertAll();
 
 	}
 

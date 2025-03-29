@@ -20,7 +20,7 @@ public class InvalidLoginTest2 extends BaseTest {
 		return ExcelUtility.readMultipleDataFromExcel(EXCELPATH, INVALIDATA);
 	}
 
-	@Test(dataProvider = "invalidData1")
+	@Test(dataProvider = "invalidData1",groups = {"FT","RT"})
 	public void invalidLogin(String username, String password) {
 		// click on loginLink
 		WelcomePage wp = new WelcomePage(driver);
