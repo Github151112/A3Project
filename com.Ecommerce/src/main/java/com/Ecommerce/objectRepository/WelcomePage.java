@@ -13,6 +13,13 @@ public class WelcomePage extends BaseClass {
 
 	@FindBy(className = "ico-register")
 	private WebElement registerLink;
+	
+	@FindBy(className = "ico-login")
+	private WebElement loginLink;
+
+	public WebElement getLoginLink() {
+		return loginLink;
+	}
 
 	public WebElement getRegisterLink() {
 		return registerLink;
